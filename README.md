@@ -17,7 +17,7 @@ Par exemple pour y = 2x, si on trouve x=1.01 au lieu de 1 (vraie valeur), on aur
             pour y= 3x, sin on trouve x=0.99 au lieu de 1, on aura à la fin -0.03 d'erreur à la fin 
             
 L'avantage d'utiliser "erreur" c'est que l'on peut utiliser W (au lieu de W^2) pour faire une propagation feed-forward. 
-Dans ce cas, les "erreurs" trouvées à la dernière couche sera l'order 1e-4 pour un RN avec 4 couches donc les erreurs relatives sont faibles et possible à trainer.
+Dans ce cas, les "erreurs" trouvées à la dernière couche sera l'order 1e-4 pour un RN avec 4 couches donc les erreurs relatives sont assez corrects (l'ordre de grandeur) et possible à trainer.
 
             
 
